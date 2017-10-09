@@ -5,3 +5,4 @@ xterm*faceName: Inconsolata:size=10:antialias=true
 xterm*font: 8x13
 xterm*cursorBlink: true
 xterm.vt100.metaSendsEscape: true
+xterm*modifyKeyboard:2
