@@ -34,6 +34,7 @@
 *color7: #D3D7CF
 *color15: #EEEEEC
 
+URxvt*fading: 25
 URxvt*font: xft:Monospace:size=12:antialias=true
 ! Disable the annoying yellow box when doing Ctrl+Shift+V
 URxvt.iso14755: false
