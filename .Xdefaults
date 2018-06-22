@@ -40,6 +40,9 @@ URxvt*font: xft:Monospace:size=12:antialias=true
 URxvt.iso14755: false
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt*scrollTtyKeypress: true
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
 URxvt.scrollBar: false
 
 XTerm.termName: xterm-256color
