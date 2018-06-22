@@ -34,8 +34,12 @@
 *color7: #D3D7CF
 *color15: #EEEEEC
 
-URxvt.scrollBar: false
 URxvt*font: xft:Monospace:size=12:antialias=true
+! Disable the annoying yellow box when doing Ctrl+Shift+V
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.scrollBar: false
 
 XTerm.termName: xterm-256color
 XTerm.*.cursorBlink: true
