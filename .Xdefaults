@@ -38,6 +38,7 @@ URxvt*fading: 25
 URxvt*font: xft:Monospace:size=12:antialias=true
 ! Disable the annoying yellow box when doing Ctrl+Shift+V
 URxvt.iso14755: false
+URxvt*loginShell: true
 URxvt*scrollTtyKeypress: true
 URxvt*scrollTtyOutput: false
 URxvt*scrollWithBuffer: true
